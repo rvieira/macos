@@ -1,0 +1,2 @@
+# macos
+Everything MacOS
