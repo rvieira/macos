@@ -1,0 +1,46 @@
+Ricardos-MacBook-Air:git rvieira$ brew install git
+Updating Homebrew...
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.21.catalina.bottle.tar.gz
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/cdea54f52b7c36ebcb5fe26a1cf736d7cd6fd5f2fd016dd8357a8624ffd6b5f8?response-content-disposition=attachment%3Bfilename%3D%22gettext-0.21.
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/pcre2-10.35.catalina.bottle.tar.gz
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/6a1e59a5db23d684f92d2bf695601d1b466f3e9d5407f704ba4679d885d13cef?response-content-disposition=attachment%3Bfilename%3D%22pcre2-10.35.c
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/git-2.28.0.catalina.bottle.tar.gz
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/6c4d10f29f78dcbefa12fab3e47e7755d5d2ca2e9bbc5aeee4838ad223296d0a?response-content-disposition=attachment%3Bfilename%3D%22git-2.28.0.ca
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext-0.21.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 19.0MB
+==> Installing git dependency: pcre2
+ * [new tag]             2.2.9                                                     -> 2.2.9
+==> Pouring pcre2-10.35.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.35: 230 files, 6.0MB
+==> Installing git
+==> Pouring git-2.28.0.catalina.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.28.0: 1,482 files, 48.9MB
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
