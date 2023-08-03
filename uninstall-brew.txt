@@ -1,0 +1,37 @@
+ricardovieira@luft-22 python % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+Warning: This script will remove:
+/Users/ricardovieira/Library/Caches/Homebrew/
+/opt/homebrew/.devcontainer/
+/opt/homebrew/.dockerignore
+/opt/homebrew/.editorconfig
+/opt/homebrew/.git/
+/opt/homebrew/.github/
+/opt/homebrew/.gitignore
+/opt/homebrew/.shellcheckrc
+/opt/homebrew/.sublime/
+/opt/homebrew/.vale.ini
+/opt/homebrew/.vscode/
+/opt/homebrew/CHANGELOG.md
+/opt/homebrew/CONTRIBUTING.md
+/opt/homebrew/Caskroom/
+/opt/homebrew/Cellar/
+/opt/homebrew/Dockerfile
+/opt/homebrew/LICENSE.txt
+/opt/homebrew/Library//
+/opt/homebrew/README.md
+/opt/homebrew/bin/brew
+/opt/homebrew/completions/
+/opt/homebrew/docs/
+/opt/homebrew/manpages/
+/opt/homebrew/package/
+Are you sure you want to uninstall Homebrew? This will remove your installed packages! [y/N] y
+==> Removing Homebrew installation...
+==> Removing empty directories...
+==> /usr/bin/sudo /usr/bin/find /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/opt /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/Frameworks -name .DS_Store -delete
+==> /usr/bin/sudo /usr/bin/find /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/opt /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/Frameworks -depth -type d -empty -exec rmdir {} ;
+==> Homebrew uninstalled!
+The following possible Homebrew files were not deleted:
+/opt/homebrew/etc/
+/opt/homebrew/share/
+/opt/homebrew/var/
+You may wish to remove them yourself.

@@ -1,0 +1,97 @@
+ricardovieira@luft-22 macos % berw install postgresql
+zsh: command not found: berw
+ricardovieira@luft-22 macos % brew install postgresql
+Warning: Use postgresql@14 instead of deprecated postgresql
+Warning: Use postgresql@14 instead of deprecated postgresql
+==> Fetching dependencies for postgresql@14: icu4c, ca-certificates, openssl@1.1, krb5, lz4 and readline
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/72.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:90c50fe2cbf8bedcae43886caaa096ab6fc54f893be192912220ba1ec48e634f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:90c50fe2cbf8bedcae43886caaa096ab6fc54f893be192912220ba1ec48e634f?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-01-10
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff27e5e9db8fdeb003f17e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:11fe9d0a98a2ac454fa1db95762a697c3340f46560ff27e5e9db8fdeb003f17e?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1s
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c11b17c8b78efa46dac2d213cd7a7b3fff75f6f5e6d2ef2248345cd4a900b1c6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c11b17c8b78efa46dac2d213cd7a7b3fff75f6f5e6d2ef2248345cd4a900b1c6?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching krb5
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.20.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:a6ef38ba592b8b2b541db10011c301006c25f94b1db786b0a8f7c904755a3e1e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:a6ef38ba592b8b2b541db10011c301006c25f94b1db786b0a8f7c904755a3e1e?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:284fa580570efdc8056e4fc95dc05f7b0546aa0c346795dd616d4cec8eb99426
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:284fa580570efdc8056e4fc95dc05f7b0546aa0c346795dd616d4cec8eb99426?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:9406afa0f7aefbbef37ee193b3b17dd0e08bb2a80e99680cde732289f4819ad2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:9406afa0f7aefbbef37ee193b3b17dd0e08bb2a80e99680cde732289f4819ad2?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Fetching postgresql@14
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/14/manifests/14.6_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/14/blobs/sha256:6647fb7b48536d2b280e9c8129a7a09b08d50c0219c27d4df5245e1a7a9ea741
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6647fb7b48536d2b280e9c8129a7a09b08d50c0219c27d4df5245e1a7a9ea741?se=2023-02-06T09%3A15%3A0
+######################################################################## 100.0%
+==> Installing dependencies for postgresql@14: icu4c, ca-certificates, openssl@1.1, krb5, lz4 and readline
+==> Installing postgresql@14 dependency: icu4c
+==> Pouring icu4c--72.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c/72.1: 263 files, 78.4MB
+==> Installing postgresql@14 dependency: ca-certificates
+==> Pouring ca-certificates--2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2023-01-10: 3 files, 216.9KB
+==> Installing postgresql@14 dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1s.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1s: 8,101 files, 18MB
+==> Installing postgresql@14 dependency: krb5
+==> Pouring krb5--1.20.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/krb5/1.20.1: 162 files, 5.6MB
+==> Installing postgresql@14 dependency: lz4
+==> Pouring lz4--1.9.4.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lz4/1.9.4: 22 files, 681.5KB
+==> Installing postgresql@14 dependency: readline
+==> Pouring readline--8.2.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing postgresql@14
+==> Pouring postgresql@14--14.6_1.arm64_monterey.bottle.tar.gz
+==> /opt/homebrew/Cellar/postgresql@14/14.6_1/bin/initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
+==> Caveats
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql@14 after an upgrade:
+  brew services restart postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
+==> Summary
+🍺  /opt/homebrew/Cellar/postgresql@14/14.6_1: 3,312 files, 45.1MB
+==> Running `brew cleanup postgresql@14`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> postgresql@14
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql@14 after an upgrade:
+  brew services restart postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
